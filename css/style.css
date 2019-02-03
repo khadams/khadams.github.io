@@ -1,0 +1,95 @@
+
+/* from: https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
+.skip {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    a.skip:active,
+    a.skip:focus,
+    a.skip:hover {
+        left: 0;
+        top: 0;
+        width: auto;
+        height: auto;
+        overflow: visible;
+    }
+
+/* styling for tagline content on about page */
+.welcome {}
+  .footer-nav
+
+  /* might not need this depending on style */
+  .contact
+
+/* for winter schedule announcement emphasized text */
+.announcement
+
+/* for schedule */
+.schedule{}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline;
+  float: right;
+  text-align: left;
+}
+
+nav li a {
+  display: block;
+  color: rgba(0,28,147,1.0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 20px, Montserrat, sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  color: rgba(225,50,25,1.0);
+}
+
+nav .current {
+  color: rgba(225,50,25,1.0);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 32pt
+  font-weight: bold;
+  color: #000
+}
+
+h2 {
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
+  font-size: 28pt
+  font-weight: semi-bold;
+  color: #000
+}
+
+p {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14pt
+  font-weight: regular, none;
+  color: #000
+}
