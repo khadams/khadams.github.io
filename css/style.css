@@ -100,7 +100,6 @@ body header img {
   position: fixed;
   right: 2vh;
   top: 2vh;
-  padding 20vw;
   min-width: 200px;
   display: none;
   z-index: 99;
@@ -409,7 +408,7 @@ footer nav li a {
   border-radius: 5px;
   padding: 1em;
   position: fixed;
-  zindex: 100;
+  z-index: 100;
   bottom: 50px;
   box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
   font: 12px;
@@ -450,10 +449,6 @@ footer nav li a:hover {
 .nav{
   flex: 1;
   justify-content: space-between;
-}
-
-.welcome-container{
-  display: hide;
 }
 
 .welcome, .welcome h1{
@@ -675,7 +670,7 @@ footer nav li a:hover {
 }
 .broadcast {
   padding: .75rem .75rem;
-  margin: none;
+  margin: 0;
   background-color: rgba(178,14,14,0.5);
   display: flex;
   text-align: center;
@@ -767,10 +762,10 @@ footer nav li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, auto);
-    grid-gap: 1em;
-    margin: 3em;
-    margin-left: : 10em;
-    margin-right: 10em;
+    grid-gap: 1%;
+    margin: 3%;
+    margin-left: : 5%;
+    margin-right: 5%;
   }
   .gallery-img{
     width: 100vw;
@@ -855,7 +850,7 @@ footer nav li a:hover {
     display: flex;
     order: 3;
     flex: 2;
-    align-items: space-between;
+    justify-content: space-between;
     z-index: 5555;
   }
 /*added for fixed nav js */
