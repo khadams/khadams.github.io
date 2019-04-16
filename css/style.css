@@ -77,7 +77,7 @@ body header img {
   color: rgba(42, 57, 120, 1.0);
   border-radius: 15px;
   position: fixed;
-  right: 2vh;
+  /* right: 2vh; */
   top: 15vh;
   padding: 10px;
   z-index: 100;
@@ -246,7 +246,7 @@ body main table thead{
   font-weight: bold;
   line-height: 1.4;
   letter-spacing: .13em;
-  background-color:  rgba(144, 159, 222, 0.3);
+  background-color: #ced2e2;
   color: #2A3978;
 }
 
@@ -346,7 +346,7 @@ footer nav li a {
 }
 
 .flip-front {
-  background-color: #bbb;
+  background-color: #2A3978;
   color: white;
   text-align: center;
 }
@@ -535,9 +535,6 @@ footer nav li a:hover {
 
 .rate-table{
   width: 100%;
-  padding: 10px;
-  margin: 20px 0;
-  /* background-color: pink; */
 }
 
 .capacity-list{
@@ -671,7 +668,7 @@ footer nav li a:hover {
 .broadcast {
   padding: .75rem .75rem;
   margin: 0;
-  background-color: rgba(178,14,14,0.5);
+  background-color: #E0D1D1;
   display: flex;
   text-align: center;
   line-height: 1.2;
@@ -726,8 +723,9 @@ footer nav li a:hover {
   }
 
   .rate-table{
-    max-width: 60vw;
-    margin: 1em;
+    width: 100%;
+    padding: 3px;
+    margin: 10px 0;
   }
 
   .capacity-list{
