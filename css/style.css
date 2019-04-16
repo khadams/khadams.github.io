@@ -318,7 +318,7 @@ footer nav li a {
 
 /*flipcard on employment page*/
 .flip-container {
-  background-color: transparent;
+  background-color: #2A3978;
   width: 340px;
   height: 260px;
   margin: 0 auto;
@@ -480,6 +480,7 @@ footer nav li a:hover {
   display: block;
   width: 100%;
   padding: inherit;
+  background-color: inherit;
 }
 
 .footer-container{
