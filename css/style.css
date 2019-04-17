@@ -695,7 +695,7 @@ footer nav li a:hover {
   background-color: #bfe4f2;
   color: black;
   font-family: 'Nanum Gothic', sans-serif;
-  line-height: 1.4;
+  line-height: 1.4em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
 }
@@ -708,14 +708,14 @@ footer nav li a:hover {
   border: none;
   background-color: white;
   border-radius: 3px;
-  font-size: 32;
+  font-size: 32pt;
   font-weight: 600;
 }
 
 .calloutHead {
-  letter-spacing: 0.3;
+  letter-spacing: 0.3em;
   text-transform: capitalize;
-  font-size: 16;
+  font-size: 16pt;
   font-weight: bold;
   text-align: center;
 }
