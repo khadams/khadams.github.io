@@ -31,7 +31,7 @@
     <a href="#main" class="skip">Skip to content</a>
 
       <header>
-        
+
         <!-- broadcast bar for announcements regarding schedule -->
               <div role="alert" class="broadcast">
                 <div class="broadcast-container" aria-label="alert"> Service Alert: Ferry service will stop at 10PM on Wednesday evening. It will resume again on Thursday at 6AM.
@@ -122,7 +122,11 @@
         </div>
       </div>
 
-      <div id="snackbar">We're hiring! Check out our employment page linked in the footer for details.</div>
+      <div class="callout">
+        <button aria-label="close" onclick=this.parentElement.style.display='none'>X</button>
+        <div class="calloutHead">We're hiring!</div>
+        <div class+"calloutBody">Check out our employment page linked in the footer for details.</div>
+      </div>
 
     </main>
 

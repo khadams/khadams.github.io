@@ -678,8 +678,47 @@ footer nav li a:hover {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+.callout {
+  display: none;
+}
+
 /* Media Queries for desktop*/
 @media (min-width: 768px) {
+
+.callout {
+  position: fixed;
+  top:200px;
+  left: 150px;
+  margin-left: 20%;
+  padding: 2em;
+  max-width: 50%;
+  background-color: #bfe4f2;
+  color: black;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 1.4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.callout button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 5px 10px;
+  border: none;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 32;
+  font-weight: 600;
+}
+
+.calloutHead {
+  letter-spacing: 0.3;
+  text-transform: capitalize;
+  font-size: 16;
+  font-weight: bold;
+  text-align: center;
+}
 
   .welcome-container{
     display: block;
