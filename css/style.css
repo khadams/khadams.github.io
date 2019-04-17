@@ -686,6 +686,7 @@ footer nav li a:hover {
 @media (min-width: 768px) {
 
 .callout {
+  display: block;
   position: fixed;
   top:200px;
   left: 150px;
